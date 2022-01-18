@@ -1,0 +1,26 @@
+.app {
+  background-color: #26c6da;
+  height: 100vh;
+  overflow: auto;
+}
+
+.app-content {
+  background-color: #ffffff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.section {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ui-components * {
+  display: block;
+  padding: 25px;
+}
