@@ -1,0 +1,27 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgba(38, 198, 218, 0.1);
+  border: 1px solid rgba(38, 198, 218, 1);
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-description {
+  font-weight: normal;
+}
+
+.task-urgent-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: red;
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 4px);
+}
