@@ -1,0 +1,181 @@
+/*
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here.
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKcw.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I94.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1Q.ttf)
+    format("truetype");
+}
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+button,
+input,
+textarea {
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  color: #333;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ccc;
+  text-transform: uppercase;
+}
+h6 {
+  color: #aaa;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+@font-face {
+  font-family: "percolate";
+  src: url("./assets/icon/percolate.eot?-5w3um4");
+  src: url("./assets/icon/percolate.eot?#iefix5w3um4")
+      format("embedded-opentype"),
+    url("./assets/icon/percolate.woff?5w3um4") format("woff"),
+    url("./assets/icon/percolate.ttf?5w3um4") format("truetype"),
+    url("./assets/icon/percolate.svg?5w3um4") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  transition: all 200ms ease-in;
+  color: #5db9ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: #239da8;
+}
+a:active {
+  color: #555;
+}
+a:focus {
+  outline: none;
+}
